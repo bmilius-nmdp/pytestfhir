@@ -88,7 +88,7 @@ def mkpatient():
     name.family = 'Parker'
     patient.name = [name]
     # print(json.dumps(patient.as_json(), indent=4))
-    patient.uuid = 'urn:uuid:'+str(uuid.uuid4())
+    patient.uuid = uuid.uuid4().urn
     print(patient.uuid)
     return(patient)
 
@@ -105,7 +105,7 @@ def mksequence():
     # adding uuid attribute to the sequence object
     # for later use in building bundles and referencing
     # resources with fullUrl
-    sequence.uuid = 'urn:uuid:'+str(uuid.uuid4())
+    sequence.uuid = uuid.uuid4().urn
 
     import fhirclient.models.coding as c
     coding = c.Coding()
