@@ -146,6 +146,38 @@ def mksequence():
 
     return sequence
 
+def mkspecimen():
+    """
+    returns a specimen resource with reference to patient
+    """
+    import fhirclient.models.specimen as sp
+    specimen = sp.Specimen()
+    for element in specimen.elementProperties():
+        if element[5]==True:
+            print(element)
+    # print(specimen.elementProperties())
+    # fhirclient.models.specimen
+    # fhirclient.models.specimen.Specimen
+    # fhirclient.models.specimen.SpecimenCollection
+    # fhirclient.models.specimen.SpecimenContainer
+    # fhirclient.models.specimen.SpecimenProcessing
+    # identifier identifier
+    # accessionIdentifier - identifier
+    # type - codeableConcept
+    # subject - reference to patient
+    # collection - backbone element
+    # - bodysite - codeableConcept
+    # - method - codeableConcept
+    # - collectedDateTime - dateTime
+
+
+def mkobservation(patient, specimen, sequence):
+    """
+    returns an observation resource with references to
+    patient, speciment, and sequence)
+    """
+    pass
+
 
 def mkbundle(type, resources):
     """
