@@ -59,7 +59,8 @@ def postpatient(patient):
     }
     smart = client.FHIRClient(settings=settings)
     response = patient.create(smart.server)
-    print(json.dumps(response, indent=4))
+    print(json.dumps(response.json(), indent=4))
+    print(response.headers['location'])
 
 
 def main():
