@@ -1,11 +1,25 @@
 {
-    "id": "patient-1",
     "name": [
         {
-            "family": "Parker",
+            "family": "Storm",
             "given": [
-                "Peter"
-            ]
+                "Jonathon",
+                "Lowell"
+            ],
+            "text": "Jonathon Storm",
+            "use": "official"
+        },
+        {
+            "family": "Storm",
+            "given": [
+                "Johnny"
+            ],
+            "text": "Johnny Storm",
+            "use": "nickname"
+        },
+        {
+            "text": "Human Torch",
+            "use": "nickname"
         }
     ],
     "resourceType": "Patient"

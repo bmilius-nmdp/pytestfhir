@@ -44,7 +44,7 @@ def writepatient(patient):
     '''
     takes a patient resource and writes it in json to a file
     '''
-    fname = 'patient-1.json'
+    fname = 'patient.json'
     with open(fname, 'w') as outfile:
         json.dump(patient.as_json(), outfile, indent=4)
     print("patient json written to file {fn}".format(fn=fname))
@@ -70,7 +70,7 @@ def main():
     patient = mkpatient()
     # print(json.dumps(patient.as_json(), indent=4))
     writepatient(patient)
-    postpatient(patient)
+    # postpatient(patient)
 
 
 if __name__ == '__main__':

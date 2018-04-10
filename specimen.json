@@ -1,0 +1,26 @@
+{
+    "collection": {
+        "bodySite": {
+            "coding": [
+                {
+                    "code": "261063000",
+                    "display": "Buccal space",
+                    "system": "http://snomed.info/sct"
+                }
+            ]
+        },
+        "method": {
+            "coding": [
+                {
+                    "code": "SWA",
+                    "display": "Swab",
+                    "system": "http://hl7.org/fhir/v2/0488"
+                }
+            ]
+        }
+    },
+    "subject": {
+        "reference": "Patient/2609"
+    },
+    "resourceType": "Specimen"
+}
