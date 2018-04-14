@@ -143,17 +143,17 @@ def mksequence():
     )
     narrative.status = 'generated'
     sequence.text = narrative
-
     return sequence
+
 
 def mkspecimen():
     """
     returns a specimen resource with reference to patient
     """
     import fhirclient.models.specimen as sp
-    specimen = sp.Specimen()
-    for element in specimen.elementProperties():
-        if element[5]==True:
+    mySpecimen = sp.Specimen()
+    for element in mySpecimen.elementProperties():
+        if element[5] is True:
             print(element)
     # print(specimen.elementProperties())
     # fhirclient.models.specimen
@@ -169,6 +169,7 @@ def mkspecimen():
     # - bodysite - codeableConcept
     # - method - codeableConcept
     # - collectedDateTime - dateTime
+    return mySpecimen
 
 
 def mkobservation(patient, specimen, sequence):
