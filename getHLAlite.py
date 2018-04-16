@@ -4,8 +4,9 @@ demo of working with biopython and sequences from IMGT/HLA using dbfetch
 '''
 
 
-import sys, os
-from tempfile import NamedTemporaryFile # part of standard libs
+import sys
+import os
+from tempfile import NamedTemporaryFile  # part of standard libs
 import requests                         # pip install requests
 from Bio import SeqIO                   # pip install biopython
 
@@ -16,7 +17,7 @@ def getHLA(acc):
     '''
     url = ('https://www.ebi.ac.uk/Tools/dbfetch/dbfetch?db=imgthla;id=' +
            acc + ';style=raw'
-          )
+           )
     try:
         response = requests.get(url)
     except requests.exceptions.RequestException as e:
