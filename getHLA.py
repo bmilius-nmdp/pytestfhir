@@ -4,8 +4,9 @@ demo of working with sequences from IMGT/HLA using dbfetch
 '''
 
 
-import sys, os
-from tempfile import NamedTemporaryFile # part of standard libs
+import sys
+import os
+from tempfile import NamedTemporaryFile  # part of standard libs
 import requests                         # pip install requests
 from Bio import SeqIO                   # pip install biopython
 from Bio.Seq import Seq
@@ -19,7 +20,7 @@ def getHLA(acc):
     '''
     url = ('https://www.ebi.ac.uk/Tools/dbfetch/dbfetch?db=imgthla;id=' +
            acc + ';style=raw'
-          )
+           )
     try:
         response = requests.get(url)
     except requests.exceptions.RequestException as e:
@@ -40,7 +41,7 @@ def getFeatures(seqobj, kind):
     takes a sequence object and a kind of feature
     returns a list of those features
     '''
-    exons=[]
+    exons = []
     for feature in seqobj.features:
         if feature.type == kind:
             exons.append(feature)
@@ -62,10 +63,11 @@ def getExon(seqobj, num):
                         end = exon.location.end
                         print('start = {}'.format(start))
                         print('end = {}'.format(end))
-    exonSeq = SeqRecord(Seq(str(seqobj.seq[start:end]),IUPAC.ambiguous_dna),
+    exonSeq = SeqRecord(Seq(str(seqobj.seq[start:end]), IUPAC.ambiguous_dna),
                         id='{}, exon {}'.format(seqobj.id, num),
                         name='{}, exon {}'.format(seqobj.name, num),
-                        description=("{}, exon {}, start={}, end={}".format(seqobj.description, num, start, end))
+                        description=("{}, exon {}, start={}, end={}".format(
+                            seqobj.description, num, start, end))
                         )
     return exonSeq
 
