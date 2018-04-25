@@ -4,14 +4,16 @@ demo of working with sequences from IMGT/HLA using dbfetch
 '''
 
 
-import sys
 import os
+import sys
 from tempfile import NamedTemporaryFile  # part of standard libs
 import requests                         # pip install requests
 from Bio import SeqIO                   # pip install biopython
 from Bio.Seq import Seq
 from Bio.Alphabet import IUPAC
 from Bio.SeqRecord import SeqRecord
+# print(sys.executable)
+# print(sys.path)
 
 
 def getHLA(acc):
