@@ -94,3 +94,6 @@ out.txt
 
 # swap files
 .swp
+
+# vscode
+.vscode/
