@@ -12,6 +12,7 @@ pylint = "*"
 [packages]
 requests = "*"
 biopython = "*"
+rdflib = "*"
 
 [requires]
 python_version = "3.6"
