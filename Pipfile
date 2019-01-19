@@ -10,9 +10,10 @@ pylint = "*"
 "autopep8" = "*"
 
 [packages]
-requests = "*"
+requests = ">=2.20.0"
 biopython = "*"
-rdflib = "*"
+"urllib3" = ">=1.23"
+notebook = ">=5.7.2"
 
 [requires]
 python_version = "3.6"
