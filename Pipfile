@@ -14,6 +14,7 @@ requests = ">=2.20.0"
 biopython = "*"
 "urllib3" = ">=1.23"
 notebook = ">=5.7.2"
+isodate = "*"
 
 [requires]
 python_version = "3.6"
