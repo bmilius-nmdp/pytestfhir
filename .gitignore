@@ -97,3 +97,7 @@ out.txt
 
 # vscode
 .vscode/
+
+# jupyter notebooks - scratchpads
+Untitled.ipynb
+

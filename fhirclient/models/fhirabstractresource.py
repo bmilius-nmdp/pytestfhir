@@ -117,7 +117,13 @@ class FHIRAbstractResource(fhirabstractbase.FHIRAbstractBase):
         if self.id:
             raise Exception("This resource already has an id, cannot create")
 
-        ret = srv.post_json(self.relativeBase(), self.as_json())
+        base_url = self.relativeBase()
+        if(self.resource_type == "Bundle"
+            and self.type == "transaction"):
+                base_url = None
+
+        ret = srv.post_json(base_url, self.as_json())
+#        ret = srv.post_json(self.relativeBase(), self.as_json())
         if len(ret.text) > 0:
             # return the full requests.Response object
             return ret
