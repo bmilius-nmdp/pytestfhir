@@ -16,6 +16,7 @@ biopython = "*"
 notebook = ">=5.7.2"
 isodate = "*"
 nbmerge = "*"
+jupyter = "*"
 
 [requires]
 python_version = "3.7"
