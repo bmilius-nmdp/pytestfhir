@@ -55,7 +55,7 @@ def postpatient(patient):
     '''
     settings = {
         'app_id': 'my_web_app',
-        'api_base': 'http://fhirtest.b12x.org/baseDstu3'
+        'api_base': 'http://fhirtest.b12x.org/r3'
     }
     smart = client.FHIRClient(settings=settings)
     response = patient.create(smart.server)
@@ -70,7 +70,7 @@ def main():
     patient = mkpatient()
     # print(json.dumps(patient.as_json(), indent=4))
     writepatient(patient)
-    # postpatient(patient)
+    postpatient(patient)
 
 
 if __name__ == '__main__':

@@ -37,7 +37,7 @@ def getsmart():
     '''
     settings = {
         'app_id': 'my_web_app',
-        'api_base': 'http://fhirtest.b12x.org/baseDstu3'
+        'api_base': 'http://fhirtest.b12x.org/r3'
     }
     smart = client.FHIRClient(settings=settings)
     return smart
@@ -121,7 +121,7 @@ def main():
     doing the main thing
     '''
     # mypatient = readpatient('patient-1.json')
-    mypatient = getpatient('2519', getsmart())
+    mypatient = getpatient('3002', getsmart())
     myspecimen = mkspecimen(mypatient)
     print(json.dumps(myspecimen.as_json(), indent=4))
     # print(json.dumps(mypatient.as_json(), indent=4))
