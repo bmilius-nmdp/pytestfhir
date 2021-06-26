@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
 testclient.py
-tesing smart-on-fhir/client-py
+testing smart-on-fhir/client-py
 """
-from fhirclient import client
-from fhirclient import server
+from fhirclient.r3 import client
+from fhirclient.r3 import server
 import uuid
 import json
 
@@ -35,7 +35,7 @@ def getpatient(smart):
     """
     get patient with Id 2342
     """
-    import fhirclient.models.patient as p
+    import fhirclient.r3.models.patient as p
     patient = p.Patient.read('2342', smart.server)
     print(patient.birthDate.isostring)
     # '1986-12-31'
@@ -48,7 +48,7 @@ def dosearch(smart):
     """
     searching for resources matching a particular set of criteria
     """
-    import fhirclient.models.observation as o
+    import fhirclient.r3.models.observation as o
     search = o.Observation.where(struct={'subject': '2342', 'status': 'final'})
     observations = search.perform_resources(smart.server)
     for observation in observations:
@@ -67,7 +67,7 @@ def getpatientserv():
     # You can work with the `FHIRServer` class directly, without using
     # `FHIRClient`, but this is not recommended:
     smart = server.FHIRServer(None, 'http://fhirtest.b12x.org/r3')
-    import fhirclient.models.patient as p
+    import fhirclient.r3.models.patient as p
     patient = p.Patient.read('2342', smart)
     print(patient.name[0].given)
     # ['John']
@@ -77,8 +77,8 @@ def mkpatient():
     """
     make a Patient resource using the data model
     """
-    import fhirclient.models.patient as p
-    import fhirclient.models.humanname as hn
+    import fhirclient.r3.models.patient as p
+    import fhirclient.r3.models.humanname as hn
     patient = p.Patient()
     # patient.id = 'patient-1'
     # print(patient.id)
@@ -97,7 +97,7 @@ def mksequence():
     """
     make a Sequence resource using the data model
     """
-    import fhirclient.models.sequence as s
+    import fhirclient.r3.models.sequence as s
     sequence = s.Sequence({
         # 'id': 'seq-1',
         'coordinateSystem': 0
@@ -107,14 +107,14 @@ def mksequence():
     # resources with fullUrl
     sequence.uuid = uuid.uuid4().urn
 
-    import fhirclient.models.coding as c
+    import fhirclient.r3.models.coding as c
     coding = c.Coding()
     coding.system = 'http://www.ebi.ac.uk/ipd/imgt/hla/'
     coding.version = '3.23'
     coding.display = 'HLA-A*01:01:01:01'
     coding.code = 'HLA00001'
 
-    import fhirclient.models.codeableconcept as cc
+    import fhirclient.r3.models.codeableconcept as cc
     codecon = cc.CodeableConcept()
     codecon.coding = [coding]
     codecon.text = 'HLA-A*01:01:01:01'
@@ -134,7 +134,7 @@ def mksequence():
         'TGCGCGGCTACTACAACCAGAGCGAGGACG'
     )
 
-    import fhirclient.models.narrative as n
+    import fhirclient.r3.models.narrative as n
     narrative = n.Narrative()
     narrative.div = (
         '<div xmlns="http://www.w3.org/1999/xhtml">'
@@ -150,17 +150,17 @@ def mkspecimen():
     """
     returns a specimen resource with reference to patient
     """
-    import fhirclient.models.specimen as sp
+    import fhirclient.r3.models.specimen as sp
     mySpecimen = sp.Specimen()
     for element in mySpecimen.elementProperties():
         if element[5] is True:
             print(element)
     # print(specimen.elementProperties())
-    # fhirclient.models.specimen
-    # fhirclient.models.specimen.Specimen
-    # fhirclient.models.specimen.SpecimenCollection
-    # fhirclient.models.specimen.SpecimenContainer
-    # fhirclient.models.specimen.SpecimenProcessing
+    # fhireclient.r3.models.specimen
+    # fhireclient.r3.models.specimen.Specimen
+    # fhireclient.r3.models.specimen.SpecimenCollection
+    # fhireclient.r3.models.specimen.SpecimenContainer
+    # fhireclient.r3.models.specimen.SpecimenProcessing
     # identifier identifier
     # accessionIdentifier - identifier
     # type - codeableConcept
@@ -184,7 +184,7 @@ def mkbundle(type, resources):
     """
     takes a list of resources and a bundle type and returns a bundle
     """
-    import fhirclient.models.bundle as b
+    import fhirclient.r3.models.bundle as b
     bundle = b.Bundle({'type': type})
     bundle.entry = []
     for resource in resources:
