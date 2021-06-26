@@ -15,7 +15,7 @@ def getsmart():
     """
     settings = {
         'app_id': 'my_web_app',
-        'api_base': 'http://fhirtest.b12x.org/baseDstu3'
+        'api_base': 'http://fhirtest.b12x.org/r3'
     }
     smart = client.FHIRClient(settings=settings)
     return smart
@@ -66,7 +66,7 @@ def getpatientserv():
     '''
     # You can work with the `FHIRServer` class directly, without using
     # `FHIRClient`, but this is not recommended:
-    smart = server.FHIRServer(None, 'http://fhirtest.b12x.org/baseDstu3')
+    smart = server.FHIRServer(None, 'http://fhirtest.b12x.org/r3')
     import fhirclient.models.patient as p
     patient = p.Patient.read('2342', smart)
     print(patient.name[0].given)
