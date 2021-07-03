@@ -1,0 +1,12 @@
+{
+    "resourceType": "Parameters",
+    "parameter": [
+        {
+            "name": "coding",
+            "valueCoding": {
+                "system": "http://unitsofmeasure.org",
+                "code": "%"
+            }
+        }
+    ]
+}

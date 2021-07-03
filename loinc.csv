@@ -1,0 +1,7 @@
+Code,Display,ValueType,value,q.unit,q.system,q.code,cc.code,cc.system,cc.display
+30180-4,Basophils/100 leukocytes in Blood,Quantity,1,percent,http://unitsofmeasure.org,%,,,
+26449-9,Eosinophils [#/volume] in Blood,Quantity,0.5,thousands per microliter,http://unitsofmeasure.org,10*3/uL,,,
+718-7,Hemoglobin [Mass/volume] in Blood,Quantity,15,gram per deciliter,http://unitsofmeasure.org,g/dL,,,
+26464-8,Leukocytes [#/volume] in Blood,Quantity,5.2,billion per liter,http://unitsofmeasure.org,10*9/L,,,
+40651-2,Metamyelocytes [Presence] in Blood,CodeableConcept,,,,,LA9633-4,http://loinc.org,Present
+74398-9,Neutrophils [#/volume] in Cord blood,Quantity,7.9,billion per liter,http://unitsofmeasure.org,10*9/L,,,

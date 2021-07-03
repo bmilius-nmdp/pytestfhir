@@ -20,6 +20,7 @@ jupyter = "*"
 jinja2 = ">=2.10.1"
 bleach = ">=3.1.4"
 yattag = "*"
+pandas = "*"
 
 [requires]
 python_version = "3.9"
