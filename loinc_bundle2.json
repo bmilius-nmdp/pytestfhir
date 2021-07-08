@@ -1,0 +1,749 @@
+{
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:70ab1a7b-f302-4f16-8637-b1ee89e7e0f4",
+      "request": {
+        "method": "POST",
+        "url": "Patient"
+      },
+      "resource": {
+        "birthDate": "1986-01-24",
+        "gender": "male",
+        "identifier": [
+          {
+            "system": "http://example.org",
+            "value": "f64db406f2504644bc984489a0302348"
+          }
+        ],
+        "name": [
+          {
+            "family": "Johnson",
+            "given": [
+              "Kevin",
+              "Dash"
+            ],
+            "text": "Kevin Dash Johnson",
+            "use": "official"
+          }
+        ],
+        "resourceType": "Patient"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3661ee14-c380-4a3e-a945-2ab787bfde14",
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      },
+      "resource": {
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "display": "Laboratory",
+                "system": "http://loinc.org"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "30180-4",
+              "display": "Basophils/100 leukocytes in Blood",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "Basophils/100 leukocytes in Blood"
+        },
+        "effectiveDateTime": "1987-07-09T05:56:41Z",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:70ab1a7b-f302-4f16-8637-b1ee89e7e0f4"
+        },
+        "valueQuantity": {
+          "code": "%",
+          "system": "http://unitsofmeasure.org",
+          "unit": "percent",
+          "value": 0.7
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ce3f554d-5d93-4740-9771-bcbc647325f7",
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      },
+      "resource": {
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "display": "Laboratory",
+                "system": "http://loinc.org"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "30180-4",
+              "display": "Basophils/100 leukocytes in Blood",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "Basophils/100 leukocytes in Blood"
+        },
+        "effectiveDateTime": "2009-08-20T02:37:47Z",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:70ab1a7b-f302-4f16-8637-b1ee89e7e0f4"
+        },
+        "valueQuantity": {
+          "code": "%",
+          "system": "http://unitsofmeasure.org",
+          "unit": "percent",
+          "value": 1.2
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c498ac42-89dc-44b1-8ae5-71aaf7c84de6",
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      },
+      "resource": {
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "display": "Laboratory",
+                "system": "http://loinc.org"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "30180-4",
+              "display": "Basophils/100 leukocytes in Blood",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "Basophils/100 leukocytes in Blood"
+        },
+        "effectiveDateTime": "2018-06-06T09:03:35Z",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:70ab1a7b-f302-4f16-8637-b1ee89e7e0f4"
+        },
+        "valueQuantity": {
+          "code": "%",
+          "system": "http://unitsofmeasure.org",
+          "unit": "percent",
+          "value": 1.2
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ed8b9564-edfd-4025-88a0-5537a7064f25",
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      },
+      "resource": {
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "display": "Laboratory",
+                "system": "http://loinc.org"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "26449-9",
+              "display": "Eosinophils [#/volume] in Blood",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "Eosinophils [#/volume] in Blood"
+        },
+        "effectiveDateTime": "2015-05-12T17:51:49Z",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:70ab1a7b-f302-4f16-8637-b1ee89e7e0f4"
+        },
+        "valueQuantity": {
+          "code": "10*3/uL",
+          "system": "http://unitsofmeasure.org",
+          "unit": "thousands per microliter",
+          "value": 0.1
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fb2320b6-abd4-467b-a1c0-17cf70f4de54",
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      },
+      "resource": {
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "display": "Laboratory",
+                "system": "http://loinc.org"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "26449-9",
+              "display": "Eosinophils [#/volume] in Blood",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "Eosinophils [#/volume] in Blood"
+        },
+        "effectiveDateTime": "1999-02-17T09:18:39Z",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:70ab1a7b-f302-4f16-8637-b1ee89e7e0f4"
+        },
+        "valueQuantity": {
+          "code": "10*3/uL",
+          "system": "http://unitsofmeasure.org",
+          "unit": "thousands per microliter",
+          "value": 0.8
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d08c1037-d976-44e0-b86d-69038712b747",
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      },
+      "resource": {
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "display": "Laboratory",
+                "system": "http://loinc.org"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "26449-9",
+              "display": "Eosinophils [#/volume] in Blood",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "Eosinophils [#/volume] in Blood"
+        },
+        "effectiveDateTime": "2003-05-27T07:21:31Z",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:70ab1a7b-f302-4f16-8637-b1ee89e7e0f4"
+        },
+        "valueQuantity": {
+          "code": "10*3/uL",
+          "system": "http://unitsofmeasure.org",
+          "unit": "thousands per microliter",
+          "value": 0.9
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cf6cab6f-eaeb-4ae3-800e-246ade18d125",
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      },
+      "resource": {
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "display": "Laboratory",
+                "system": "http://loinc.org"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "26449-9",
+              "display": "Eosinophils [#/volume] in Blood",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "Eosinophils [#/volume] in Blood"
+        },
+        "effectiveDateTime": "2020-07-09T22:04:03Z",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:70ab1a7b-f302-4f16-8637-b1ee89e7e0f4"
+        },
+        "valueQuantity": {
+          "code": "10*3/uL",
+          "system": "http://unitsofmeasure.org",
+          "unit": "thousands per microliter",
+          "value": 0.6
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f71cc7ba-3542-40a6-b279-7b8d936535d7",
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      },
+      "resource": {
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "display": "Laboratory",
+                "system": "http://loinc.org"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "26449-9",
+              "display": "Eosinophils [#/volume] in Blood",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "Eosinophils [#/volume] in Blood"
+        },
+        "effectiveDateTime": "2021-06-16T01:46:47Z",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:70ab1a7b-f302-4f16-8637-b1ee89e7e0f4"
+        },
+        "valueQuantity": {
+          "code": "10*3/uL",
+          "system": "http://unitsofmeasure.org",
+          "unit": "thousands per microliter",
+          "value": 0.4
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a11b2527-ed11-424d-883e-0365a0e959a7",
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      },
+      "resource": {
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "display": "Laboratory",
+                "system": "http://loinc.org"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "718-7",
+              "display": "Hemoglobin [Mass/volume] in Blood",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "Hemoglobin [Mass/volume] in Blood"
+        },
+        "effectiveDateTime": "1993-08-05T02:31:07Z",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:70ab1a7b-f302-4f16-8637-b1ee89e7e0f4"
+        },
+        "valueQuantity": {
+          "code": "g/dL",
+          "system": "http://unitsofmeasure.org",
+          "unit": "gram per deciliter",
+          "value": 23.3
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:89062f9e-66a0-4ea3-a6b1-be67fb1b5c06",
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      },
+      "resource": {
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "display": "Laboratory",
+                "system": "http://loinc.org"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "718-7",
+              "display": "Hemoglobin [Mass/volume] in Blood",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "Hemoglobin [Mass/volume] in Blood"
+        },
+        "effectiveDateTime": "1989-02-05T17:55:27Z",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:70ab1a7b-f302-4f16-8637-b1ee89e7e0f4"
+        },
+        "valueQuantity": {
+          "code": "g/dL",
+          "system": "http://unitsofmeasure.org",
+          "unit": "gram per deciliter",
+          "value": 3.7
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:aae78bc2-64c6-479f-81a9-5cebbb57de73",
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      },
+      "resource": {
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "display": "Laboratory",
+                "system": "http://loinc.org"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "26464-8",
+              "display": "Leukocytes [#/volume] in Blood",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "Leukocytes [#/volume] in Blood"
+        },
+        "effectiveDateTime": "2017-12-21T21:37:09Z",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:70ab1a7b-f302-4f16-8637-b1ee89e7e0f4"
+        },
+        "valueQuantity": {
+          "code": "10*9/L",
+          "system": "http://unitsofmeasure.org",
+          "unit": "billion per liter",
+          "value": 3.4
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8689a174-faab-420d-8945-91fd8ae1e37b",
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      },
+      "resource": {
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "display": "Laboratory",
+                "system": "http://loinc.org"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "26464-8",
+              "display": "Leukocytes [#/volume] in Blood",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "Leukocytes [#/volume] in Blood"
+        },
+        "effectiveDateTime": "1992-06-25T05:53:21Z",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:70ab1a7b-f302-4f16-8637-b1ee89e7e0f4"
+        },
+        "valueQuantity": {
+          "code": "10*9/L",
+          "system": "http://unitsofmeasure.org",
+          "unit": "billion per liter",
+          "value": 5.0
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6300a17a-90b6-4d37-a313-3172476c80db",
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      },
+      "resource": {
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "display": "Laboratory",
+                "system": "http://loinc.org"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "26464-8",
+              "display": "Leukocytes [#/volume] in Blood",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "Leukocytes [#/volume] in Blood"
+        },
+        "effectiveDateTime": "1988-03-01T09:11:39Z",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:70ab1a7b-f302-4f16-8637-b1ee89e7e0f4"
+        },
+        "valueQuantity": {
+          "code": "10*9/L",
+          "system": "http://unitsofmeasure.org",
+          "unit": "billion per liter",
+          "value": 7.0
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a5cde2bb-0c9b-42a6-a5da-b3bddc0c23f7",
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      },
+      "resource": {
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "display": "Laboratory",
+                "system": "http://loinc.org"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "74398-9",
+              "display": "Neutrophils [#/volume] in Cord blood",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "Neutrophils [#/volume] in Cord blood"
+        },
+        "effectiveDateTime": "1990-03-04T07:13:59Z",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:70ab1a7b-f302-4f16-8637-b1ee89e7e0f4"
+        },
+        "valueQuantity": {
+          "code": "10*9/L",
+          "system": "http://unitsofmeasure.org",
+          "unit": "billion per liter",
+          "value": 12.0
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d929e587-e7c1-4836-a64e-748d667be3cb",
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      },
+      "resource": {
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "display": "Laboratory",
+                "system": "http://loinc.org"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "74398-9",
+              "display": "Neutrophils [#/volume] in Cord blood",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "Neutrophils [#/volume] in Cord blood"
+        },
+        "effectiveDateTime": "1993-01-06T21:53:36Z",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:70ab1a7b-f302-4f16-8637-b1ee89e7e0f4"
+        },
+        "valueQuantity": {
+          "code": "10*9/L",
+          "system": "http://unitsofmeasure.org",
+          "unit": "billion per liter",
+          "value": 4.3
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1ac41efd-545a-4cc1-b872-8c897ac1b1dd",
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      },
+      "resource": {
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "display": "Laboratory",
+                "system": "http://loinc.org"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "74398-9",
+              "display": "Neutrophils [#/volume] in Cord blood",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "Neutrophils [#/volume] in Cord blood"
+        },
+        "effectiveDateTime": "1998-09-13T16:53:35Z",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:70ab1a7b-f302-4f16-8637-b1ee89e7e0f4"
+        },
+        "valueQuantity": {
+          "code": "10*9/L",
+          "system": "http://unitsofmeasure.org",
+          "unit": "billion per liter",
+          "value": 11.2
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:79577ce3-b76b-4042-ac53-92cbfcf78101",
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      },
+      "resource": {
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "laboratory",
+                "display": "Laboratory",
+                "system": "http://loinc.org"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "74398-9",
+              "display": "Neutrophils [#/volume] in Cord blood",
+              "system": "http://loinc.org"
+            }
+          ],
+          "text": "Neutrophils [#/volume] in Cord blood"
+        },
+        "effectiveDateTime": "2014-07-08T12:39:08Z",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:70ab1a7b-f302-4f16-8637-b1ee89e7e0f4"
+        },
+        "valueQuantity": {
+          "code": "10*9/L",
+          "system": "http://unitsofmeasure.org",
+          "unit": "billion per liter",
+          "value": 15.8
+        },
+        "resourceType": "Observation"
+      }
+    }
+  ],
+  "type": "transaction",
+  "resourceType": "Bundle"
+}
