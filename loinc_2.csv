@@ -1,0 +1,120 @@
+﻿LOINC Code,LOINC Concept Name,Value[x],value,q.unit,q.system,q.code,cc.code,cc.system,cc.display,q.low,q.high,
+26508-2,Band form neutrophils/100 leukocytes in Blood,Quantity,,percent,http://unitsofmeasure.org,%,,,,0,6,https://healthmatters.io/understand-blood-test-results/band-neutrophils
+35332-6,Band form neutrophils/100 leukocytes in Blood by Automated count,Quantity,,percent,http://unitsofmeasure.org,%,,,,0,6,https://healthmatters.io/understand-blood-test-results/band-neutrophils
+764-1,Band form neutrophils/100 leukocytes in Blood by Manual count,Quantity,,percent,http://unitsofmeasure.org,%,,,,0,6,https://healthmatters.io/understand-blood-test-results/band-neutrophils
+30180-4,Basophils/100 leukocytes in Blood,Quantity,,percent,http://unitsofmeasure.org,%,,,,0.5,1,https://www.ucsfhealth.org/medical-tests/blood-differential-test
+706-2,Basophils/100 leukocytes in Blood by Automated count,Quantity,,percent,http://unitsofmeasure.org,%,,,,0.5,1,https://www.ucsfhealth.org/medical-tests/blood-differential-test
+707-0,Basophils/100 leukocytes in Blood by Manual count,Quantity,,percent,http://unitsofmeasure.org,%,,,,0.5,1,https://www.ucsfhealth.org/medical-tests/blood-differential-test
+26446-5,Blasts/100 leukocytes in Blood,Quantity,,percent,http://unitsofmeasure.org,%,,,,0,1,
+709-6,Blasts/100 leukocytes in Blood by Manual count,Quantity,,percent,http://unitsofmeasure.org,%,,,,0,1,
+26449-9,Eosinophils [#/volume] in Blood,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,0.05,0.5,https://emedicine.medscape.com/article/2085133-overview
+711-2,Eosinophils [#/volume] in Blood by Automated count,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,0.05,0.5,https://emedicine.medscape.com/article/2085133-overview
+712-0,Eosinophils [#/volume] in Blood by Manual count,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,0.05,0.5,https://emedicine.medscape.com/article/2085133-overview
+26450-7,Eosinophils/100 leukocytes in Blood,Quantity,,percent,http://unitsofmeasure.org,%,,,,1,4,https://emedicine.medscape.com/article/2085133-overview
+713-8,Eosinophils/100 leukocytes in Blood by Automated count,Quantity,,percent,http://unitsofmeasure.org,%,,,,1,4,https://emedicine.medscape.com/article/2085133-overview
+714-6,Eosinophils/100 leukocytes in Blood by Manual count,Quantity,,percent,http://unitsofmeasure.org,%,,,,1,4,https://emedicine.medscape.com/article/2085133-overview
+4576-5,Hemoglobin F/Hemoglobin.total in Blood,Quantity,,percent,http://unitsofmeasure.org,%,,,,0,1,https://www.uofmhealth.org/health-library/hw39098#hw39128
+71865-0,Hemoglobin F/Hemoglobin.total [Pure mass fraction] in Blood by Electrophoresis,FALSE,,#N/A,FALSE,0,,,,0,0.01,https://www.uofmhealth.org/health-library/hw39098#hw39129
+71864-3,Hemoglobin F/Hemoglobin.total [Pure mass fraction] in Blood by HPLC,FALSE,,#N/A,FALSE,0,,,,0,0.01,https://www.uofmhealth.org/health-library/hw39098#hw39130
+71863-5,Hemoglobin F/Hemoglobin.total [Pure mass fraction] in Blood by Kleihauer-Betke method,FALSE,,#N/A,FALSE,0,,,,0,0.01,https://www.uofmhealth.org/health-library/hw39098#hw39131
+32682-7,Hemoglobin F/Hemoglobin.total in Blood by Electrophoresis,Quantity,,percent,http://unitsofmeasure.org,%,,,,0,1,https://www.uofmhealth.org/health-library/hw39098#hw39131
+38524-5,Hemoglobin F/Hemoglobin.total in Blood by Electrophoresis alkaline (pH 8.9),Quantity,,percent,http://unitsofmeasure.org,%,,,,0,1,https://www.uofmhealth.org/health-library/hw39098#hw39132
+42246-9,Hemoglobin F/Hemoglobin.total in Blood by HPLC,Quantity,,percent,http://unitsofmeasure.org,%,,,,0,1,https://www.uofmhealth.org/health-library/hw39098#hw39133
+4633-4,Hemoglobin F/Hemoglobin.total in Blood by Kleihauer-Betke method,Quantity,,percent,http://unitsofmeasure.org,%,,,,0,1,https://www.uofmhealth.org/health-library/hw39098#hw39134
+718-7,Hemoglobin [Mass/volume] in Blood,Quantity,,gram per deciliter,http://unitsofmeasure.org,g/dL,,,,12,18,https://emedicine.medscape.com/article/2085614-overview
+59260-0,Hemoglobin [Moles/volume] in Blood,Quantity,,millimole per liter,http://unitsofmeasure.org,mmol/L,,,,7.4,11.2,https://emedicine.medscape.com/article/2085614-overview
+30313-1,Hemoglobin [Mass/volume] in Arterial blood,Quantity,,gram per deciliter,http://unitsofmeasure.org,g/dL,,,,12,18,https://emedicine.medscape.com/article/2085614-overview
+14775-1,Hemoglobin [Mass/volume] in Arterial blood by Oximetry,Quantity,,gram per deciliter,http://unitsofmeasure.org,g/dL,,,,12,18,https://emedicine.medscape.com/article/2085614-overview
+20509-6,Hemoglobin [Mass/volume] in Blood by calculation,Quantity,,gram per deciliter,http://unitsofmeasure.org,g/dL,,,,12,18,https://emedicine.medscape.com/article/2085614-overview
+55782-7,Hemoglobin [Mass/volume] in Blood by Oximetry,Quantity,,gram per deciliter,http://unitsofmeasure.org,g/dL,,,,12,18,https://emedicine.medscape.com/article/2085614-overview
+30351-1,Hemoglobin [Mass/volume] in Mixed venous blood,Quantity,,gram per deciliter,http://unitsofmeasure.org,g/dL,,,,12,18,https://emedicine.medscape.com/article/2085614-overview
+76768-1,Hemoglobin [Mass/volume] in Mixed venous blood by Oximetry,Quantity,,gram per liter,http://unitsofmeasure.org,g/L,,,,120,180,https://emedicine.medscape.com/article/2085614-overview
+30350-3,Hemoglobin [Mass/volume] in Venous blood,Quantity,,gram per deciliter,http://unitsofmeasure.org,g/dL,,,,12,18,https://emedicine.medscape.com/article/2085614-overview
+76769-9,Hemoglobin [Mass/volume] in Venous blood by Oximetry,Quantity,,gram per liter,http://unitsofmeasure.org,g/L,,,,140,180,https://emedicine.medscape.com/article/2085614-overview
+75928-2,Hemoglobin [Moles/volume] in Arterial blood,Quantity,,millimole per liter,http://unitsofmeasure.org,mmol/L,,,,7.4,11.2,https://emedicine.medscape.com/article/2085614-overview
+93846-4,Hemoglobin [Moles/volume] in Venous blood,Quantity,,millimole per liter,http://unitsofmeasure.org,mmol/L,,,,7.4,11.2,https://emedicine.medscape.com/article/2085614-overview
+20570-8,Hematocrit [Volume Fraction] of Blood,Quantity,,percent,http://unitsofmeasure.org,%,,,,7.4,54,https://www.medicinenet.com/hematocrit/article.htm
+71833-8,Hematocrit [Pure volume fraction] of Blood by Automated count,FALSE,,#N/A,FALSE,0,,,,0.38,0.54,https://www.medicinenet.com/hematocrit/article.htm
+71831-2,Hematocrit [Pure volume fraction] of Capillary blood,FALSE,,#N/A,FALSE,0,,,,0.38,0.54,https://www.medicinenet.com/hematocrit/article.htm
+71829-6,Hematocrit [Pure volume fraction] of Venous blood,FALSE,,#N/A,FALSE,0,,,,0.38,0.49,https://www.medicinenet.com/hematocrit/article.htm
+4544-3,Hematocrit [Volume Fraction] of Blood by Automated count,Quantity,,percent,http://unitsofmeasure.org,%,,,,38,49,https://www.medicinenet.com/hematocrit/article.htm
+4545-0,Hematocrit [Volume Fraction] of Blood by Centrifugation,Quantity,,percent,http://unitsofmeasure.org,%,,,,38,49,https://www.medicinenet.com/hematocrit/article.htm
+48703-3,Hematocrit [Volume Fraction] of Blood by Estimated,Quantity,,percent,http://unitsofmeasure.org,%,,,,38,49,https://www.medicinenet.com/hematocrit/article.htm
+31100-1,Hematocrit [Volume Fraction] of Blood by Impedance,Quantity,,percent,http://unitsofmeasure.org,%,,,,38,49,https://www.medicinenet.com/hematocrit/article.htm
+42908-4,Hematocrit [Volume Fraction] of Capillary blood,Quantity,,percent,http://unitsofmeasure.org,%,,,,38,49,https://www.medicinenet.com/hematocrit/article.htm
+41654-5,Hematocrit [Volume Fraction] of Venous blood,Quantity,,percent,http://unitsofmeasure.org,%,,,,38,49,https://www.medicinenet.com/hematocrit/article.htm
+26474-7,Lymphocytes [#/volume] in Blood,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,1,10,https://www.medicalnewstoday.com/articles/320987#normal-ranges-and-levels
+731-0,Lymphocytes [#/volume] in Blood by Automated count,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,1,10,https://www.medicalnewstoday.com/articles/320987#normal-ranges-and-levels
+732-8,Lymphocytes [#/volume] in Blood by Manual count,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,1,10,https://www.medicalnewstoday.com/articles/320987#normal-ranges-and-levels
+26478-8,Lymphocytes/100 leukocytes in Blood,Quantity,,percent,http://unitsofmeasure.org,%,,,,20,40,https://emedicine.medscape.com/article/2085133-overview
+736-9,Lymphocytes/100 leukocytes in Blood by Automated count,Quantity,,percent,http://unitsofmeasure.org,%,,,,20,40,https://emedicine.medscape.com/article/2085133-overview
+737-7,Lymphocytes/100 leukocytes in Blood by Manual count,Quantity,,percent,http://unitsofmeasure.org,%,,,,20,40,https://emedicine.medscape.com/article/2085133-overview
+30433-7,Metamyelocytes [#/volume] in Blood,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,0,1,
+739-3,Metamyelocytes [#/volume] in Blood by Manual count,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,0,1,
+28541-1,Metamyelocytes/100 leukocytes in Blood,Quantity,,percent,http://unitsofmeasure.org,%,,,,0,1,https://www.mayocliniclabs.com/test-catalog/download-setup.php?format=pdf&unit_code=9184
+740-1,Metamyelocytes/100 leukocytes in Blood by Manual count,Quantity,,percent,http://unitsofmeasure.org,%,,,,0,1,https://www.mayocliniclabs.com/test-catalog/download-setup.php?format=pdf&unit_code=9185
+71668-8,Metamyelocytes/Leukocytes [Pure number fraction] in Blood by Manual count,FALSE,,#N/A,FALSE,0,,,,0,0.01,https://www.mayocliniclabs.com/test-catalog/download-setup.php?format=pdf&unit_code=9186
+40651-2,Metamyelocytes [Presence] in Blood,FALSE,,#N/A,FALSE,0,,,,,,
+26484-6,Monocytes [#/volume] in Blood,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,0,1,
+742-7,Monocytes [#/volume] in Blood by Automated count,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,0,1,
+743-5,Monocytes [#/volume] in Blood by Manual count,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,0,1,
+26485-3,Monocytes/100 leukocytes in Blood,Quantity,,percent,http://unitsofmeasure.org,%,,,,4,8,https://training.seer.cancer.gov/abstracting/procedures/clinical/hematologic/blood.html
+5905-5,Monocytes/100 leukocytes in Blood by Automated count,Quantity,,percent,http://unitsofmeasure.org,%,,,,4,8,https://training.seer.cancer.gov/abstracting/procedures/clinical/hematologic/blood.html
+744-3,Monocytes/100 leukocytes in Blood by Manual count,Quantity,,percent,http://unitsofmeasure.org,%,,,,4,8,https://training.seer.cancer.gov/abstracting/procedures/clinical/hematologic/blood.html
+30444-4,Myeloblasts [#/volume] in Blood,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,0,1,
+746-8,Myeloblasts [#/volume] in Blood by Manual count,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,0,1,
+30445-1,Myeloblasts/100 leukocytes in Blood,Quantity,,percent,http://unitsofmeasure.org,%,,,,0,1.5,
+747-6,Myeloblasts/100 leukocytes in Blood by Manual count,Quantity,,percent,http://unitsofmeasure.org,%,,,,0,1.5,
+30446-9,Myelocytes [#/volume] in Blood,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,0,1,
+748-4,Myelocytes [#/volume] in Blood by Manual count,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,0,1,
+26498-6,Myelocytes/100 leukocytes in Blood,Quantity,,percent,http://unitsofmeasure.org,%,,,,8.2,16,
+749-2,Myelocytes/100 leukocytes in Blood by Manual count,Quantity,,percent,http://unitsofmeasure.org,%,,,,8.2,16,
+71667-0,Myelocytes/Leukocytes [Pure number fraction] in Blood by Manual count,FALSE,,#N/A,FALSE,0,,,,0.082,0.16,
+26499-4,Neutrophils [#/volume] in Blood,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,2,7.5,
+751-8,Neutrophils [#/volume] in Blood by Automated count,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,2,7.5,
+753-4,Neutrophils [#/volume] in Blood by Manual count,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,2,7.5,
+26511-6,Neutrophils/100 leukocytes in Blood,Quantity,,percent,http://unitsofmeasure.org,%,,,,6,12,
+770-8,Neutrophils/100 leukocytes in Blood by Automated count,Quantity,,percent,http://unitsofmeasure.org,%,,,,6,12,
+23761-0,Neutrophils/100 leukocytes in Blood by Manual count,Quantity,,percent,http://unitsofmeasure.org,%,,,,6,12,
+30458-4,Plasma cells [#/volume] in Blood,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,0.1,1,https://www.cancer.ca/en/cancer-information/cancer-type/multiple-myeloma/multiple-myeloma/the-plasma-cells/?region=on
+24103-4,Plasma cells [#/volume] in Blood by Manual count,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,0.1,1,https://www.cancer.ca/en/cancer-information/cancer-type/multiple-myeloma/multiple-myeloma/the-plasma-cells/?region=on
+13047-6,Plasma cells/100 leukocytes in Blood,Quantity,,percent,http://unitsofmeasure.org,%,,,,2,4,https://www.sciencedirect.com/topics/neuroscience/plasma-cell
+79426-3,Plasma cells/100 leukocytes in Blood by Manual count,Quantity,,percent,http://unitsofmeasure.org,%,,,,2,4,https://www.sciencedirect.com/topics/neuroscience/plasma-cell
+28542-9,Platelet mean volume [Entitic volume] in Blood,Quantity,,femtoliter,http://unitsofmeasure.org,fL,,,,9.4,12.3,http://www.clinlabnavigator.com/complete-blood-count-cbc.html
+32623-1,Platelet mean volume [Entitic volume] in Blood by Automated count,Quantity,,femtoliter,http://unitsofmeasure.org,fL,,,,9.4,12.3,http://www.clinlabnavigator.com/complete-blood-count-cbc.html
+26515-7,Platelets [#/volume] in Blood,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,140,400,http://www.clinlabnavigator.com/complete-blood-count-cbc.html
+777-3,Platelets [#/volume] in Blood by Automated count,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,140,400,http://www.clinlabnavigator.com/complete-blood-count-cbc.html
+49497-1,Platelets [#/volume] in Blood by Estimate,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,140,400,http://www.clinlabnavigator.com/complete-blood-count-cbc.html
+778-1,Platelets [#/volume] in Blood by Manual count,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,140,400,http://www.clinlabnavigator.com/complete-blood-count-cbc.html
+30465-9,Prolymphocytes/100 leukocytes in Blood,Quantity,,percent,http://unitsofmeasure.org,%,,,,10,60,https://www.sciencedirect.com/topics/medicine-and-dentistry/prolymphocyte
+6746-2,Prolymphocytes/100 leukocytes in Blood by Manual count,Quantity,,percent,http://unitsofmeasure.org,%,,,,10,60,https://www.sciencedirect.com/topics/medicine-and-dentistry/prolymphocyte
+34926-6,Promonocytes [#/volume] in Blood,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,0.1,1,https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/promonocyte
+33855-8,Promonocytes [#/volume] in Blood by Manual count,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,0.1,1,https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/promonocyte
+30466-7,Promonocytes/100 leukocytes in Blood,Quantity,,percent,http://unitsofmeasure.org,%,,,,1,20,?
+13599-6,Promonocytes/100 leukocytes in Blood by Manual count,Quantity,,percent,http://unitsofmeasure.org,%,,,,1,20,?
+26523-1,Promyelocytes [#/volume] in Blood,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,0.1,1,?
+781-5,Promyelocytes [#/volume] in Blood by Manual count,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,0.1,1,?
+26524-9,Promyelocytes/100 leukocytes in Blood,Quantity,,percent,http://unitsofmeasure.org,%,,,,2,6,https://www.healthcare.uiowa.edu/path_handbook/handbook/test315.html
+783-1,Promyelocytes/100 leukocytes in Blood by Manual count,Quantity,,percent,http://unitsofmeasure.org,%,,,,2,6,https://www.healthcare.uiowa.edu/path_handbook/handbook/test315.html
+71666-2,Promyelocytes/Leukocytes [Pure number fraction] in Blood by Manual count,FALSE,,#N/A,FALSE,0,,,,,,
+26453-1,Erythrocytes [#/volume] in Blood,Quantity,,million per microliter,http://unitsofmeasure.org,10*6/uL,,,,4,6,http://www.clinlabnavigator.com/complete-blood-count-cbc.html
+789-8,Erythrocytes [#/volume] in Blood by Automated count,Quantity,,million per microliter,http://unitsofmeasure.org,10*6/uL,,,,4,6,http://www.clinlabnavigator.com/complete-blood-count-cbc.html
+790-6,Erythrocytes [#/volume] in Blood by Manual count,Quantity,,billion per microliter,http://unitsofmeasure.org,10*9/uL,,,,0.004,0.006,http://www.clinlabnavigator.com/complete-blood-count-cbc.html
+14196-0,Reticulocytes [#/volume] in Blood,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,25,75,https://labtestsonline.org/tests/reticulocytes
+60474-4,Reticulocytes [#/volume] in Blood by Automated count,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,25,75,https://labtestsonline.org/tests/reticulocytes
+40665-2,Reticulocytes [#/volume] in Blood by Manual count,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,25,75,https://labtestsonline.org/tests/reticulocytes
+26464-8,Leukocytes [#/volume] in Blood,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,4,11,http://www.clinlabnavigator.com/complete-blood-count-cbc.html
+6690-2,Leukocytes [#/volume] in Blood by Automated count,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,4,11,http://www.clinlabnavigator.com/complete-blood-count-cbc.html
+49498-9,Leukocytes [#/volume] in Blood by Estimate,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,4,11,http://www.clinlabnavigator.com/complete-blood-count-cbc.html
+804-5,Leukocytes [#/volume] in Blood by Manual count,Quantity,,Thousands Per MicroLiter,http://unitsofmeasure.org,10*3/uL,,,,4,11,http://www.clinlabnavigator.com/complete-blood-count-cbc.html
+1751-7,Albumin [Mass/volume] in Serum or Plasma,Quantity,,gram per deciliter,http://unitsofmeasure.org,g/dL,,,,3.4,5.4,"https://www.mountsinai.org/health-library/tests/albumin-blood-serum-test#:~:text=The%20normal%20range%20is%203.4,vary%20slightly%20among%20different%20laboratories."
+61151-7,Albumin [Mass/volume] in Serum or Plasma by Bromocresol green (BCG) dye binding method,Quantity,,gram per deciliter,http://unitsofmeasure.org,g/dL,,,,3.4,5.4,"https://www.mountsinai.org/health-library/tests/albumin-blood-serum-test#:~:text=The%20normal%20range%20is%203.4,vary%20slightly%20among%20different%20laboratories."
+61152-5,Albumin [Mass/volume] in Serum or Plasma by Bromocresol purple (BCP) dye binding method,Quantity,,gram per deciliter,http://unitsofmeasure.org,g/dL,,,,3.4,5.4,"https://www.mountsinai.org/health-library/tests/albumin-blood-serum-test#:~:text=The%20normal%20range%20is%203.4,vary%20slightly%20among%20different%20laboratories."
+2862-1,Albumin [Mass/volume] in Serum or Plasma by Electrophoresis,Quantity,,gram per deciliter,http://unitsofmeasure.org,g/dL,,,,3.4,5.4,"https://www.mountsinai.org/health-library/tests/albumin-blood-serum-test#:~:text=The%20normal%20range%20is%203.4,vary%20slightly%20among%20different%20laboratories."
+24373-3,Ferritin [Mass/volume] in Blood,Quantity,,nanogram per millliiter,http://unitsofmeasure.org,ng/mL,,,,12,300,https://www.medicinenet.com/ferritin_blood_test/article.htm
+2276-4,Ferritin [Mass/volume] in Serum or Plasma,Quantity,,nanogram per millliiter,http://unitsofmeasure.org,ng/mL,,,,12,300,https://www.medicinenet.com/ferritin_blood_test/article.htm
+20567-4,Ferritin [Mass/volume] in Serum or Plasma by Immunoassay,Quantity,,nanogram per millliiter,http://unitsofmeasure.org,ng/mL,,,,12,300,https://www.medicinenet.com/ferritin_blood_test/article.htm
+11150-0,Blasts/100 cells in Bone marrow,Quantity,,percent,http://unitsofmeasure.org,%,,,,1,5,"https://www.lls.org/leukemia/acute-myeloid-leukemia/diagnosis#:~:text=Blasts%20are%20normally%201%20to,is%20less%20than%2020%20percent."
+26505-8,Segmented neutrophils/100 leukocytes in Blood,Quantity,,percent,http://unitsofmeasure.org,%,,,,40,60,https://training.seer.cancer.gov/abstracting/procedures/clinical/hematologic/blood.html
+32200-8,Segmented neutrophils/100 leukocytes in Blood by Automated count,Quantity,,percent,http://unitsofmeasure.org,%,,,,40,60,https://training.seer.cancer.gov/abstracting/procedures/clinical/hematologic/blood.html
+769-0,Segmented neutrophils/100 leukocytes in Blood by Manual count,Quantity,,percent,http://unitsofmeasure.org,%,,,,40,60,https://training.seer.cancer.gov/abstracting/procedures/clinical/hematologic/blood.html
