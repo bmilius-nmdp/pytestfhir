@@ -8,6 +8,7 @@ jupyter = "*"
 pylint = "*"
 "pep8" = "*"
 "autopep8" = "*"
+pycodestyle = "*"
 
 [packages]
 requests = ">=2.20.0"
