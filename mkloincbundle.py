@@ -21,6 +21,7 @@ import fhirclient.r3.models.humanname as hn
 import fhirclient.r3.models.observation as o
 import fhirclient.r3.models.quantity as q
 import fhirclient.r3.models.coding as c
+
 import fhirclient.r3.models.codeableconcept as cc
 import fhirclient.r3.models.fhirdate as dt
 import fhirclient.r3.models.bundle as b
@@ -133,6 +134,7 @@ def mkbundle(patient):
     bundleEntryRequest = b.BundleEntryRequest()
     bundleEntryRequest.method = "POST"
     bundleEntryRequest.url = "Patient"
+    bundleEntryRequest.ifNoneExist = "identifier="+patient.identifier[0].system+"|"+patient.identifier[0].value
     bundleEntry.request = bundleEntryRequest
     bundle.entry = [bundleEntry]
     # print(json.dumps(bundle.as_json(), indent=2))
@@ -172,7 +174,7 @@ def mkobservations(bundle):
     for index, row in df.iterrows():
         if row['Value[x]'] == 'Quantity':
             # for each LOINC code, make between 1 and 10 observations
-            for i in range(random.randint(1, 1)):
+            for i in range(random.randint(1, 15)):
                 fake = Faker()
 
                 # create instance of observation
@@ -225,6 +227,7 @@ def mkobservations(bundle):
                 bundleEntryRequest = b.BundleEntryRequest()
                 bundleEntryRequest.method = "POST"
                 bundleEntryRequest.url = "Observation"
+
                 bundleEntry.request = bundleEntryRequest
                 bundleEntry.resource = observation
                 bundleEntry.fullUrl = uuid.uuid4().urn
@@ -239,16 +242,17 @@ def main():
     '''
     # make a random patient
     patient = mkpatient()
+    numofbundles = 3
+    for i in range(1, numofbundles+1):
+        # make a transaction bundle containing the patient
+        bundle = mkbundle(patient)
 
-    # make a transaction bundle containing the patient
-    bundle = mkbundle(patient)
-
-    # create a list of randcom observation using the loinc spreadsheet
-    # add them to the bundle
-    bundle = mkobservations(bundle)
-
-    with open('test.json', 'w') as outfile:
-        json.dump(bundle.as_json(), outfile, indent=2)
+        # create a list of randcom observation using the loinc spreadsheet
+        # add them to the bundle
+        bundle = mkobservations(bundle)
+        filename = "bundle_"+str(i)+"of"+str(numofbundles)+".json"
+        with open(filename, 'w') as outfile:
+            json.dump(bundle.as_json(), outfile, indent=2)
 
     # writepatient(patient)
     # postpatient(patient)
