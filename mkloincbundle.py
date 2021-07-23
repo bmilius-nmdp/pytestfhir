@@ -134,7 +134,8 @@ def mkbundle(patient):
     bundleEntryRequest = b.BundleEntryRequest()
     bundleEntryRequest.method = "POST"
     bundleEntryRequest.url = "Patient"
-    bundleEntryRequest.ifNoneExist = "identifier="+patient.identifier[0].system+"|"+patient.identifier[0].value
+    bundleEntryRequest.ifNoneExist = "identifier=" + \
+        patient.identifier[0].system + "|" + patient.identifier[0].value
     bundleEntry.request = bundleEntryRequest
     bundle.entry = [bundleEntry]
     # print(json.dumps(bundle.as_json(), indent=2))
@@ -174,7 +175,7 @@ def mkobservations(bundle):
     for index, row in df.iterrows():
         if row['Value[x]'] == 'Quantity':
             # for each LOINC code, make between 1 and 10 observations
-            for i in range(random.randint(1, 15)):
+            for i in range(random.randint(1, 10)):
                 fake = Faker()
 
                 # create instance of observation
@@ -242,15 +243,15 @@ def main():
     '''
     # make a random patient
     patient = mkpatient()
-    numofbundles = 3
-    for i in range(1, numofbundles+1):
+    numofbundles = 5
+    for i in range(1, numofbundles + 1):
         # make a transaction bundle containing the patient
         bundle = mkbundle(patient)
 
         # create a list of randcom observation using the loinc spreadsheet
         # add them to the bundle
         bundle = mkobservations(bundle)
-        filename = "bundle_"+str(i)+"of"+str(numofbundles)+".json"
+        filename = "bundle_" + str(i) + "of" + str(numofbundles) + ".json"
         with open(filename, 'w') as outfile:
             json.dump(bundle.as_json(), outfile, indent=2)
 
